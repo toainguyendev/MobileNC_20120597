@@ -123,7 +123,6 @@ class RegisterScreenState extends State<RegisterScreen> {
                         ),
                       ),
                       onPressed: () {
-                        
                       },
                       child: const Text(
                         'REGISTER',
