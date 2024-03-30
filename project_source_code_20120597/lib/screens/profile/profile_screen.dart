@@ -16,6 +16,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
   var mailController = TextEditingController();
 
   @override
+  void dispose() {
+    mailController.dispose();
+    super.dispose();
+  }
+
+  @override
   void initState() {
     super.initState();
   }
